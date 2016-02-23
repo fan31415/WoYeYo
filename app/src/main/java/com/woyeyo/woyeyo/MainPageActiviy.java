@@ -18,7 +18,7 @@ public class MainPageActiviy extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_page);
         List<View> views=new ArrayList<View>();
-        views.add( )
+        views.add()
         CycleViewPager cycleViewPager = (CycleViewPager) getFragmentManager()
                 .findFragmentById(R.id.cycleViewPager);
         cycleViewPager.setCycle(true);
